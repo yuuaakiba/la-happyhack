@@ -96,10 +96,10 @@ $(function($){
     
 
     $('.slider').slick({
+        slidesToShow: 4, //slidesToShowNumに設定した値が入る
+        slidesToScroll: 1,
         arrows: true,
         autoplay: false,
         dots: true,
-        centerMode: true,
-        centerPadding: '30%',
     });
 });
