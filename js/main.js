@@ -101,5 +101,12 @@ $(function($){
         arrows: true,
         autoplay: false,
         dots: true,
+
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            },
+        }]
     });
 });
